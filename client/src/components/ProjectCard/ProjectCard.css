@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.project{
+    background-color: rgba(1, 189, 78, 0.1);
+    height: 120%;
+    border-radius: 10px;
+    width: 150%;
+    
+    
+}
+.project:hover{
+    background-color:rgb(187, 255, 249);
+    cursor: pointer; 
+}
+.dot{
+    margin-top: 5%;
+    margin-left: 42%;
+    height: 50px;
+    width: 50px;
+    background: #01BD4E;
+    border-radius: 50%;
+    display: inline-block;
+}
+.align-centre{
+    
+    text-align: center;
+      
+}
+.topic{
+    margin-top: 1%;
+    align-self: center;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #000000;    
+    
+  
+}
+.subtopic{
+    margin-top: 1%;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    
+    /* grey */
+    
+    color: #4F4F4F;    
+}
+.data{
+    margin-top: 3%;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    
+    /* grey */
+    
+    color: #4F4F4F;    
+}
+.imm{
+    margin-left: 30%;
+    margin-top: 18%;
+}

@@ -1,0 +1,11 @@
+client/node_modules
+admin/node_modules
+
+
+
+server/node_modules
+node_modules
+
+/files
+
+tmp

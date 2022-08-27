@@ -1,0 +1,79 @@
+/* HIDE RADIO */
+.register-bus-form__logo {
+  margin: 0 1.2rem;
+  text-align: center;
+}
+.register-bus-form__logo .text {
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 13px;
+}
+.register-bus-form__logo img {
+  width: 60px;
+  height: 60px;
+}
+.input-label {
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #01bd4e;
+}
+
+[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+[type="radio"] + img {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+}
+
+/* CHECKED STYLES */
+[type="radio"]:checked + img {
+  outline: 1px solid #4f4f4f;
+}
+.register-bus-form__terms-and-conditions {
+  width: 1.3rem;
+  height: 1.3rem;
+  color: #d9d9d9;
+  margin-right: 5px;
+}
+.terms-and-coondition-link {
+  color: var(--primary-color);
+}
+.register-business__submit-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+  margin: 2rem auto;
+  margin-bottom: 10px;
+  gap: 10px;
+
+  background: #01bd4e;
+  opacity: 0.5;
+  border: none;
+  border-radius: 5px;
+
+  color: #ffffff;
+  transition: transform 0.2s;
+}
+.register-business__submit-btn:hover {
+  color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+}
+
+.call-to-login .login-here {
+  color: #01bd4e;
+}

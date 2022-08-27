@@ -1,0 +1,58 @@
+.expert-card {
+  background: #ffffff;
+  border: 1px solid #c6c6c6;
+  border-radius: 10px;
+  padding: 7px 5px;
+  width: 242px;
+  height: 374px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expert-card .img-container {
+  border-radius: 5px;
+  height: 200px;
+  width: 200px;
+}
+
+.expert-card .img-container img {
+  height: 100%;
+}
+
+.expert-card .expert-name {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.expert-card .experience {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* green */
+
+  color: #01bd4e;
+}
+
+.expert-card .description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+
+  /* grey */
+
+  color: #4f4f4f;
+}

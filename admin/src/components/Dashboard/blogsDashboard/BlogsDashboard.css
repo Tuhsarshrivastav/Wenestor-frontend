@@ -1,0 +1,30 @@
+.blogs__list-heading {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 36px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  cursor: pointer;
+}
+.blogs__list-heading .blogs {
+  padding-bottom: 8px;
+}
+.selected {
+  border-bottom: 3px solid #01c853;
+}
+
+.create-blog {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 33px;
+  text-align: end;
+  margin-right: 2.5rem;
+  color: rgba(0, 0, 0, 0.74);
+  cursor: pointer;
+}

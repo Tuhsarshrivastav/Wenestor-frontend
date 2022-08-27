@@ -1,0 +1,39 @@
+.single-blog h3 {
+  margin-top: 30px;
+}
+.single-blog {
+  text-align: center;
+  padding-top: 0;
+}
+.single-blog .title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 67px;
+
+  color: #ffffff;
+  position: absolute;
+  width: 892px;
+  height: 134px;
+  left: 229.73px;
+  top: 189.5px;
+}
+.single-blog a {
+  margin: 30px;
+  margin-top: 50px;
+}
+
+.blogLandingImageWrapper {
+  height: 334px;
+  width: 1369px;
+  background-image: linear-gradient(
+    to right,
+    rgba(126, 213, 111, 0.8),
+    rgba(40, 180, 133, 0.8)
+  );
+}
+
+.blogLandingImageWrapper img {
+  width: 100%;
+  height: 100%;
+}

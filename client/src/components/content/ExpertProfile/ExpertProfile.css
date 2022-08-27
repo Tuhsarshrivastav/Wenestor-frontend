@@ -1,0 +1,167 @@
+.expert-profile .heading {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+
+  /* green */
+
+  color: #01bd4e;
+
+  transform: rotate(0.19deg);
+  margin: 10px auto;
+}
+
+.expert-profile .intro {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  border: 1px solid #c6c6c6;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.expert-profile .image-part {
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+.expert-profile .image-part img {
+  height: 100%;
+  width: 100%;
+}
+
+.expert-profile .description-part {
+  width: 740px;
+  position: relative;
+}
+
+.expert-profile .name {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 27px;
+
+  /* green */
+
+  color: #01bd4e;
+
+  transform: rotate(0.19deg);
+  margin-bottom: 10px;
+}
+
+.expert-profile .subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* grey */
+
+  color: #4f4f4f;
+}
+
+.expert-profile .exp {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* green */
+
+  color: #01bd4e;
+  margin: 10px auto;
+}
+
+.expert-profile .kahani {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #000000;
+  margin: 10px auto;
+}
+.expert-profile .skills {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  bottom: 5px;
+}
+
+.expert-profile .box {
+  border-radius: 30px;
+  border: 1px solid #c6c6c6;
+  color: #959595;
+  padding: 5px 40px;
+  margin: 13px;
+}
+
+.expert-profile .call_to_action {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(1, 200, 83, 0.1);
+}
+
+.expert-profile .call_to_action .btn {
+  padding: 15px 100px;
+  border-left: 1px dashed #c6c6c6;
+}
+
+.expert-profile .experience {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1.5fr 2.5fr;
+  gap: 10px;
+}
+
+.expert-profile .work_experience {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 27px;
+
+  /* green */
+
+  color: #01bd4e;
+
+  transform: rotate(0.19deg);
+}
+.expert-profile .role {
+  margin-bottom: 20px;
+}
+.expert-profile .Role-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* green */
+
+  color: #01bd4e;
+
+  transform: rotate(0.19deg);
+  margin-bottom: 10px;
+}
+
+.expert-profile .Role-heading .dot {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  color: #d9d9d9;
+  display: inline;
+  margin-right: 10px;
+}
+
+.expert-profile .role-sub-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* grey */
+
+  color: #4f4f4f;
+}
+
+.expert-profile .work_experiences ul {
+  list-style-type: disc;
+}

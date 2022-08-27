@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+.main{
+    margin-left: 20%;
+    font-family: "Playfair Display";
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    max-height: max-content;
+    margin-left: 1%;
+}
+.card1{
+    max-width: 60%;
+    margin-top: 3%!important;
+    display: flex!important;
+    flex-direction: row!important;
+
+}
+.card1 img{
+    max-width: 80%;
+    padding-left: 5% ;
+}
+.bg-primary {
+    background: rgba(1, 189, 78, 0.2)!important;
+}
+
+.introtext{
+    text-align: left;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+.introtext h4{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+
+color: rgba(0, 0, 0, 0.48);
+}
+
+
+.card2
+{
+    max-width: 50%;
+   
+}
+.activityhead{
+    display: flex;
+    
+}
+.recent{
+    text-align: left;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    color: #26834C;
+}
+.manage{
+    margin-top: -2%;
+    margin-right:8%;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    color: #0041BE;    
+}
+.activities{
+    margin-top: 3%;
+    margin-left: -5%;
+    max-width: 95%;
+}
+.flexc{
+    display: flex;
+    flex-direction: row;
+}
+
+.card3{
+    width: 25%;
+    margin-left: 5%!important;
+    margin-top: 3.2%!important;
+    margin-bottom: -5%!important;
+    background: rgba(217, 217, 217, 0.15)!important;
+}
+.weekly-head{
+    text-align: center;
+}
+.weekly-text{
+    font-family: 'Playfair Display';
+    font-size: 70%;
+}
+.chart{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.top2{
+    display: flex;
+    flex-direction: row;
+    max-height: max-content;
+    margin-left: 3%!important;
+    margin-top: 5%!important;
+}
+.recommend{
+    margin-right: -25%!important;
+    margin-top: 2%!important;
+    padding: 2%;
+  
+}

@@ -1,0 +1,202 @@
+.login__layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 100vh;
+}
+
+.login__showcase {
+  background: rgba(1, 189, 78, 0.4);
+}
+.login__showcase-image {
+  height: 100%;
+}
+.login__showcase-image img {
+  width: 100%;
+  opacity: 0.6;
+  color: transparent;
+}
+.login__showcase-text {
+  position: absolute;
+  width: 299.25px;
+  height: 335px;
+  left: 62px;
+  top: 170.55px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 67px;
+
+  color: #ffffff;
+}
+.login__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.login__content-header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1px solid #c6c6c6;
+}
+
+.login__content-heading {
+  font-weight: 100;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+  margin-left: 1.5rem;
+  color: #000000;
+}
+
+.login__content-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  flex: 2;
+}
+
+.login__content-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__content-logo img {
+  width: 75px;
+  margin: auto 20px;
+}
+
+.login__content-header .btn {
+  /* align-self: center;
+  position: absolute;
+  width: 220px;
+  height: 30px;
+  left: 1109.16px;
+  top: 43px; */
+
+  background: #ffffff;
+  border: 1px solid #01bd4e;
+  border-radius: 5px;
+  transition: transform 0.2s ease-out;
+}
+.login__content .btn:hover {
+  color: #01bd4e;
+  transform: scale(1.05);
+}
+.login__form-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+}
+.login__content-form {
+  width: 100%;
+}
+.login-bus-form {
+  width: 100%;
+}
+
+/* LOGIN.js */
+/* HIDE RADIO */
+.login-bus-form__logo {
+  margin: 0 1.2rem;
+  text-align: center;
+}
+.login-bus-form__logo .text {
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 13px;
+}
+.login-bus-form__logo img {
+  width: 60px;
+  height: 60px;
+}
+.input-label {
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #01bd4e;
+}
+
+[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+[type="radio"] + img {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+}
+
+/* CHECKED STYLES */
+[type="radio"]:checked + img {
+  outline: 1px solid #4f4f4f;
+}
+.login-bus-form__terms-and-conditions {
+  width: 1.3rem;
+  height: 1.3rem;
+  color: #d9d9d9;
+  margin-right: 5px;
+}
+.terms-and-coondition-link {
+  color: var(--primary-color);
+}
+.login-business__submit-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+  margin: 2rem auto;
+  margin-bottom: 10px;
+  gap: 10px;
+
+  background: #01bd4e;
+  opacity: 0.5;
+  border: none;
+  border-radius: 5px;
+
+  color: #ffffff;
+  transition: transform 0.2s;
+}
+.login-business__submit-btn:hover {
+  color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+}
+
+.call-to-register .register-here,
+a.forgot-password,
+a.continue-to-login {
+  color: #01bd4e;
+}
+a.forgot-password:hover {
+  color: #01bd4e;
+}
+
+/*  forgot password form */
+.register-email-address {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+.registered-email-address-desription {
+  margin-bottom: 1rem;
+}
+.login__form-wrapper.forgot-password,
+.login__form-wrapper.create-new-password {
+  width: 45%;
+}
+.tick-logo {
+  margin-right: 10px;
+}

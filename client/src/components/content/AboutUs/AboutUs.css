@@ -1,0 +1,289 @@
+.aus__landing {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.aus__landing-img {
+  width: 515px;
+  height: 530px;
+  background-position: center;
+}
+.aus__landing-card {
+  width: 700px;
+  height: 292px;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+.aus__landing-card-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.aus__landing-card-desc {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  color: #4f4f4f;
+}
+.aus__mission {
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 800px;
+}
+.aus__mission-heading {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+  margin: 10px auto 45px auto;
+}
+
+.aus__mission-para {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.aus__navigation {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 30px auto;
+}
+.aus__nav-header {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  width: 1000px;
+}
+.aus__nav-header > * {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 43px;
+  padding: 8px;
+  color: #4f4f4f;
+}
+
+.aus__nav-header > :first-child {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 43px;
+  color: #01bd4e;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-bottom: 2px solid #01bd4e;
+}
+
+.aus__navigation__main .title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 43px;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.aus__navigation__main__team-members {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  margin: 15px auto;
+  width: 1100px;
+}
+.member-card {
+  background: rgba(217, 217, 217, 0.18);
+  border-radius: 20px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.member-img {
+  margin: 20px auto 10px auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 77.5px;
+  background-position: center;
+  background-size: cover;
+  margin: 30px auto;
+}
+.member-card__content-name {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+}
+.member-card__content-role {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: #4f4f4f;
+}
+
+.member-card__content-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  margin: 1rem auto;
+  color: #4f4f4f;
+}
+.member-card__social {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+}
+.member-card__social > * {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aus__navigation-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.aus__navigation-pagination .circle {
+  width: 20px;
+  height: 20px;
+  background: #d9d9d9;
+  padding: 10px auto;
+}
+.aus__success-overview {
+  margin: 30px auto;
+  padding: 20px;
+}
+.aus__success-overview-heading {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+.aus__success-overview-content {
+  display: flex;
+  justify-content: space-between;
+}
+.aus__success-overview-engagement {
+  position: relative;
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.aus__success-overview-engagement .percentage {
+  font-weight: 800;
+  font-size: 53px;
+  line-height: 71px;
+  position: absolute;
+  left: 250px;
+  top: 108px;
+}
+.aus__success-overview-engagement .title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+}
+
+.review {
+  background: rgba(250, 250, 250, 0.56);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+  width: 315px;
+  height: 80px;
+}
+.review__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.aus__client-reviews {
+  padding: 20px;
+}
+.aus__client-reviews .heading {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+}
+
+.aus__client-reviews-content {
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+  width: 1100px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.aus__client-reviews-content > :first-child {
+  align-self: flex-start;
+}
+.aus__client-reviews-content > :last-child {
+  align-self: flex-end;
+}
+.aus__trending-projects {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.aus__trending-projects-heading {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 30px;
+  text-align: center;
+}
+
+.aus__trending-projects .cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.aus__trending-project-card {
+  background: rgba(217, 217, 217, 0.18);
+  border-radius: 20px;
+  width: 338px;
+  height: 376px;
+}
+.aus__trending-project-card .img {
+  width: 338px;
+  height: 140px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.aus__trending-project-card .heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.aus__trending-project-card .desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+.aus__trending-project-card .learn-more {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 32px;
+  text-align: center;
+
+  color: #01bd4e;
+}
+.aus__trending-project-card .learn-more .arrow {
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.Expimage{
+  width: 350px;
+  height: 152px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(79, 79, 79, 0.3);
+border-radius: 10px;
+
+}
+
+.Expimage:hover{
+    transform: scale(1.04);
+      
+      cursor: pointer;
+}
+.mtext{
+    background-color: rgb(255, 255, 255);
+}
+.Expimage img{
+    width:150px;
+    margin-right: 20px;
+}
+.head{
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+
+color: #000000;
+
+        
+    
+}
+.text{
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    
+    /* grey */
+    
+    color: #4F4F4F;    
+    
+}

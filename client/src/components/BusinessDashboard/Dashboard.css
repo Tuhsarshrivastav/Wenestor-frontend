@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+.text {
+  font-family: "Playfair Display";
+}
+
+
+.name{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+
+
+color: #000000;
+}
+.ready{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    
+    
+    color: rgba(0, 0, 0, 0.48);
+}
+
+.box1{
+    position: relative;
+    
+    width: 780px;
+  height: 180px;  
+  background: rgba(1, 189, 78, 0.2);
+border-radius: 20px;
+  padding: 50px;
+  margin-top: 30px;
+  margin-left: -30px;
+}
+
+.recents{
+    position: relative;
+    text-align: justify;
+    width: 620px;
+    height: 484px;
+    left: 0px;
+    top: 39px;
+    
+    background: rgba(217, 217, 217, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    
+}
+.manage{
+    position: relative;
+    
+    top: 20px;
+    left: 30px;
+    display: flex;
+    font-family: 'Playfair Display';
+    
+}
+.recent1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 39px;
+
+
+
+color: #26834C;
+}
+.manage1{
+    margin-left: 300px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 33px;
+
+    color: #0041BE;
+
+}
+.activities{
+    align-items: baseline;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    
+    
+    color: #000000;    
+}
+
+.weekly-overview{
+    position: relative;
+    width: 324px;
+    height: 302px;
+    left: 860px;
+    top: -665px;
+    background: rgba(217, 217, 217, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.recommended-projects{
+    position: relative;
+    left:800px;
+    top: -638px;
+}

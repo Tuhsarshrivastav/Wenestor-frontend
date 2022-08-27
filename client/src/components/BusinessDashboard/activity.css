@@ -1,0 +1,26 @@
+.subtype{
+position: relative;
+left: 5px;
+font-size: 16px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(0, 0, 0, 0.71);
+}
+.activity{
+    margin-top: 4%;
+    display: flex;
+}
+.time{
+    margin-left: 69%; 
+    text-align: left;
+}
+.line{
+    position: relative;
+    margin-top: 5px;
+    width: 575px;
+height: 0px;
+border: 1px solid #C6C6C6;
+}
+

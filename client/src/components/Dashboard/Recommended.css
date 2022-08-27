@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+.card{
+    max-width: 50%;
+    text-align: center;
+}
+.card h3{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #26834C;
+    padding: 1%;
+}
+.title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+
+color: #0041BE;
+
+}
+.by{
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.48)
+}
+.by img{
+    width:75px;
+    height:60px;
+}
+.desc{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: rgba(0, 0, 0, 0.48);
+}
+
+
+
+.pack{
+    display: flex;
+    flex-direction: row;
+    background: rgba(217, 217, 217, 0.46);
+    border-radius: 25px;
+}
+.value{
+    text-align: left;
+}
+.type{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    padding-right: 7%;
+    color: #0041BE;
+}

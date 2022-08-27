@@ -1,0 +1,129 @@
+.hdiw__header {
+  padding: 10px 20px;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.hdiw__header-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+  margin: 1rem auto;
+}
+
+.hdiw__header-sub-title {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 31px;
+  color: #4f4f4f;
+}
+.hdiw__steps {
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+}
+.steps__card {
+  margin: 10px 20px;
+}
+.steps__card-img {
+  height: 102px;
+  width: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto -20px auto;
+}
+.steps__card-content {
+  background: rgba(79, 79, 79, 0.12);
+  border-radius: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  width: 196px;
+  height: 280px;
+  padding: 10px 5px;
+}
+.steps__card-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 33px;
+}
+.steps__card-desc {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  color: #4f4f4f;
+}
+
+.hdiw__find-best-talent,
+.hdiw__connect-with-experts {
+  margin: 20px 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: space-between;
+  height: 340px;
+}
+
+.hdiw__find-best-talent-images,
+.hdiw__connect-with-experts-images {
+  position: relative;
+}
+
+.hdiw__find-best-talent-images .img1 {
+  position: absolute;
+  width: 250px;
+  height: 182px;
+  right: 0;
+  top: 0;
+  background-repeat: no-repeat;
+}
+
+.hdiw__find-best-talent-images .img2 {
+  position: absolute;
+  width: 250px;
+  height: 185px;
+  left: 100%;
+  bottom: 0;
+  background-repeat: no-repeat;
+}
+.hdiw__connect-with-experts-images .img1 {
+  position: absolute;
+  width: 236px;
+  height: 185px;
+  right: 0;
+  top: 0;
+  background-repeat: no-repeat;
+}
+.hdiw__connect-with-experts-images .img2 {
+  position: absolute;
+  width: 235px;
+  height: 158px;
+  left: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+}
+
+.hdiw__connect-with-experts__main,
+.hdiw__find-best-talent__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.hdiw__find-best-talent__main-header,
+.hdiw__connect-with-experts__main-header {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+}
+.hdiw__find-best-talent-desc,
+.hdiw__connect-with-experts-desc {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 31px;
+  text-align: left;
+  color: #4f4f4f;
+}

@@ -1,0 +1,25 @@
+.about {
+  text-align: center;
+  background: rgba(1, 189, 78, 0.1);
+  height: 287.6px;
+}
+.heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 40px;
+  color: #000000;
+  padding: 20px;
+}
+.desc {
+  max-width: 1000px;
+  text-align: center;
+  margin: 10px auto;
+}
+.desc p {
+  font-size: 8px;
+}
+.desc .green {
+  font-size: 16px;
+  color: #01bd4e;
+}

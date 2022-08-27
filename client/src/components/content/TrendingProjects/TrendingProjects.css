@@ -1,0 +1,21 @@
+.trending {
+  margin-top: 0;
+  text-align: center;
+}
+.trending .heading {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 37px;
+  color: #000000;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 448.16px 448.16px;
+  gap: 20px;
+  justify-content: center;
+}
+
+    

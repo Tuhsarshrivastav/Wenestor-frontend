@@ -1,0 +1,38 @@
+.project-card {
+  text-align: center;
+  background: rgba(1, 189, 78, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #01bd4e;
+  color: #fff;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card .title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.project-card .subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+
+  /* grey */
+
+  color: #4f4f4f;
+}

@@ -1,0 +1,147 @@
+.experts-page .heading-main,
+.experts-page .paragraph,
+.experts-page .categories {
+  margin: 0 1rem;
+}
+
+.experts-page .heading-main {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 47px;
+  color: #01bd4e;
+  margin-top: 25px;
+  margin-bottom: 16px;
+}
+
+.experts-page .categories {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.experts-page .category {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 5px 10px;
+  color: #959595;
+  border: 1px solid #959595;
+  border-radius: 5px;
+  margin-right: 1rem;
+  margin-top: 20px;
+}
+
+.expers-page .paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+
+  /* grey */
+
+  color: #4f4f4f;
+}
+
+.experts-page .experts-heading {
+  display: flex;
+  margin: 40px auto;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+}
+.experts-page .experts-heading .verified {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 21px;
+  margin-left: 12px;
+  color: #000000;
+}
+
+.experts-page .experts-heading .view {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: right;
+  text-decoration-line: underline;
+  /* green */
+  margin-right: 15px;
+  color: #01bd4e;
+}
+.experts-page .experts-heading .view:hover {
+  cursor: pointer;
+}
+.experts-page .four-experts {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  max-width: 1140px;
+  margin: 20px auto;
+}
+
+.find-your-expert {
+  padding: 20px;
+  background-color: rgb(212, 245, 212);
+  text-align: center;
+  margin-top: 30px;
+}
+.find-your-expert .heading-find {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  /* identical to box height */
+
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.find-your-expert .steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.find-your-expert .steps .icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #01bd4e;
+  padding: 5px;
+  margin: auto;
+  font-size: 20px;
+}
+.find-your-expert .steps > div {
+  margin-right: 20px;
+  width: 350px;
+}
+.find-your-expert .steps .title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* grey */
+
+  color: #4f4f4f;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.find-your-expert .steps .description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+
+  /* grey */
+
+  color: #4f4f4f;
+}
+
+.find-your-expert .btn {
+  padding: 10px 60px;
+  margin-top: 30px;
+}
